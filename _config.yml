@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Topor
+email: toporteam@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Topor is what makes the impossible possible.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://topor.jdl.ro" # the base hostname & protocol for your site
+# twitter_username: 3labs
+github_username:  3labs
+
+# Build settings
+encoding: "utf-8"
+markdown: redcarpet
+markdown_ext: "markdown,md"
+redcarpet:
+    extensions: ["tables", "autolink", "strikethrough", "with_toc_data", "footnotes"]
+
+exclude: [README.md, LICENSE, CNAME]
