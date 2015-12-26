@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Wireless Raspberry Pi Mouse"
+categories: tutorial
 ---
 To start exploiting the linux kernel, Alex propose a simple task: create a mouse. Yup, that *simple*.
 It might seem daunting at first to create such a device from scratch, but once you figure out a solution, it's just a matter of programming.

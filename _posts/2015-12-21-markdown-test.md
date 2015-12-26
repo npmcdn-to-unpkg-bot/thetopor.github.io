@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Markdown Test"
+categories: test
 ---
 # A h1 header
 ## A h2 header
@@ -37,7 +38,7 @@ This is a code block:
 #include <stdio.h>
 
 int main(int argc, char const ** argv) {
-	printf("Gramatik - Just Jammin\n", );
+	printf("Gramatik - Just Jammin\n");
 	return 0;
 }
 {% endhighlight %}
