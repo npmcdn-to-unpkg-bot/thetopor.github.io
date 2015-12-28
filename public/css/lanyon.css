@@ -155,7 +155,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
-@media (min-width: 30em) {
+
+@media (max-width: 30em) {
   .sidebar {
     font-size: .75rem; /* 14px */
   }
@@ -203,7 +204,7 @@ a.sidebar-nav-item:focus {
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
   position: absolute;
-  opacity: 0;
+  visibility: hidden;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
@@ -237,6 +238,8 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
   background-color: #555;
+  position: fixed;
+  border: 0 none black;
 }
 
 .sidebar-toggle:active:before,
@@ -247,9 +250,15 @@ a.sidebar-nav-item:focus {
   background-image:         linear-gradient(to bottom, #fff, #fff 20%, #555 20%, #555 40%, #fff 40%, #fff 60%, #555 60%, #555 80%, #fff 80%, #fff 100%);
 }
 
-@media (min-width: 30.1em) {
+@media (min-width: 30em) {
   .sidebar-toggle {
     position: fixed;
+  }
+}
+
+@media (max-width: 48em) {
+  .sidebar-toggle {
+    border: 1px solid rgba(0, 0, 0, .2);
   }
 }
 
