@@ -47,3 +47,7 @@ He is **Nexus**. Nothing more to say.
 <a href="https://github.com/OriginalNexus">Github</a>
 </div>
 </br>
+
+### Rareș Meiroșu
+
+He is **God**. Hallelujah!
