@@ -22,10 +22,13 @@ github:
 
 # Build settings
 encoding: "utf-8"
-markdown: redcarpet
+
+markdown: kramdown
 markdown_ext: "markdown,md"
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "with_toc_data", "footnotes"]
+kramdown:
+  syntax_highlighter: rouge
+  enable_coderay: false
+
 gems: [jekyll-paginate]
 
 exclude: [README.md, LICENSE, CNAME]

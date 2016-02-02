@@ -3,18 +3,18 @@ layout: page
 title: "About Topor"
 ---
 # Topor
-
-We are a small team with big ~~dic~~ goals. Our purpose is to develop applications as low level as possible to expose the beauty of coding, kernel hacking and custom OSs.
+We are a small team with big <del>dic</del> goals. Our purpose is to develop applications as low level as possible to expose the beauty of coding, kernel hacking and custom OSs.
 
 By doing so, we will not only develop valuable skill for our career, but also share our knowledge with other enthusiasts. We strongly believe that education should be free and accessible to anyone.
 
 # The team
-
 The Topor team consists of the following members
 
-### Alex Onea
+<br />
 
-~~*As the name says, he is the chosen one.*~~
+## Alex Onea
+
+<del>*As the name says, he is the chosen one.*</del>
 
 **Alex** is the main developer and mentor. He graduated **Manchester thingy** and is currently working at **Luxsoft HARMAN thingy**. Being the leader of our team, his responsibility is to guide us to success, providing constant feedback, knowledge, personal experience, moral and even financial support. We **respect** him for what he does.
 
@@ -24,9 +24,9 @@ The Topor team consists of the following members
 <a href="lol" style="margin-right:10%;">Hotmail</a>
 <a href="">Github</a>
 </div>
-</br>
+<br />
 
-### Ionuț Mihalache
+## Ionuț Mihalache
 
 He is friend with **Nexus**. Nothing more to say.
 
@@ -35,9 +35,9 @@ He is friend with **Nexus**. Nothing more to say.
 <a href="" style="margin-right:10%;">Facebook</a>
 <a href="">Github</a>
 </div>
-</br>
+<br />
 
-### Răzvan Neacșu
+## Răzvan Neacșu
 
 He is **Nexus**. Nothing more to say.
 
@@ -46,8 +46,8 @@ He is **Nexus**. Nothing more to say.
 <a href="https://www.facebook.com/neacsu.razvan.75" style="margin-right:10%;">Facebook</a>
 <a href="https://github.com/OriginalNexus">Github</a>
 </div>
-</br>
+<br />
 
-### Rareș Meiroșu
+## Rareș Meiroșu
 
 He is **God**. Hallelujah!

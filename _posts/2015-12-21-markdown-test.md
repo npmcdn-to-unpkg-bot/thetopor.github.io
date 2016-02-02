@@ -3,11 +3,17 @@ layout: post
 title: "Markdown Test"
 categories: test
 ---
+
 # A h1 header
+
 ## A h2 header
+
 ### A h3 header
+
 #### A h4 header
+
 ##### A h5 header
+
 ###### A h6 header
 
 Some plain text.
@@ -16,7 +22,7 @@ Some plain text.
 
 *Italic text*
 
-~~Strikethrough text~~
+<del>Strikethrough text</del>
 
 List:
 
@@ -30,21 +36,24 @@ This is a [link](http://google.com)
 
 This is a footnote[^1].
 
+This is a horizontal line
+
+---
+
 This is `inline` code
 
 This is a code block:
 
-{% highlight c %}
+~~~ c
 #include <stdio.h>
 
 int main(int argc, char const ** argv) {
 	printf("Gramatik - Just Jammin\n");
 	return 0;
 }
-{% endhighlight %}
+~~~
 
-Table:
-</br>
+Tables:
 
 | Name            | Age            | Nickname  |
 | :-------------- | :------------- | :-------: |
@@ -52,7 +61,23 @@ Table:
 | Alex Onea       | *Unknown*      | Faraonu'  |
 | Ionuț Mihalache | 17             |           |
 
+|-------------------------------------------------------------------|
+| Default aligned | Left aligned | Center aligned  | Right aligned  |
+|-----------------+:-------------+:--------------:-+---------------:|
+| First body      | Second cell  | Third cell      | Fourth cell    |
+| Second line     | foo          | **strong**      | baz            |
+| Third line      | quux         | baz             | bar            |
+| More            |              | fap             |                |
+| Nexus           | *Nexus*      | **Nexus**       | Nexus          |
+|-----------------+--------------+-----------------+----------------|
+| Second body     |              |                 | shit           |
+| Second line     |              |                 |                |
+| Third line      | data         | more shit       |                |
+| idk             |              |                 |                |
+| ONE             | non-sense    | more data       | more fap       |
+|=================+==============+=================+================|
+| Footer row      | a little dim | nothing more    |                |
+|-------------------------------------------------------------------|
 
 
-</br>
 [^1]: Footnote explained here
