@@ -58,7 +58,7 @@ Tables:
 | Name            | Age            | Nickname  |
 | :-------------- | :------------- | :-------: |
 | Răzvan Neacșu   | 17             | Nexus     |
-| Alex Onea       | 23      | Faraonu'  |
+| Alex Onea       | 23             | Faraonu'  |
 | Ionuț Mihalache | 17             |           |
 
 |-------------------------------------------------------------------|
