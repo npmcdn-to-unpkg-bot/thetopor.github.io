@@ -26,8 +26,9 @@ body {
 	margin: 0; 
 	height: 100%; 
 	color: {{ site.colors.secondary }};
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
+	font-size: 16px;
 	}
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Courier New', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 16px; 
 	line-height: 24px;
