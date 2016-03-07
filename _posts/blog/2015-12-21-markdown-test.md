@@ -64,10 +64,11 @@ Tables:
 | Răzvan Neacșu   | 17             | Nexus     |
 | Alex Onea       | 23             | Faraonu'  |
 | Ionuț Mihalache | 17             |           |
+{: .table .table-striped}
 
 |-------------------------------------------------------------------|
 | Default aligned | Left aligned | Center aligned  | Right aligned  |
-|-----------------+:-------------+:--------------:-+---------------:|
+|-----------------+:-------------+:---------------:+---------------:|
 | First body      | Second cell  | Third cell      | Fourth cell    |
 | Second line     | foo          | **strong**      | baz            |
 | Third line      | quux         | baz             | bar            |
@@ -82,6 +83,7 @@ Tables:
 |=================+==============+=================+================|
 | Footer row      | a little dim | nothing more    |                |
 |-------------------------------------------------------------------|
+{: .table .table-striped}
 
 
 [^1]: Footnote explained here

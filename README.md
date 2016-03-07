@@ -1,6 +1,4 @@
 # thetopor.github.io
-Official Github page for thetopor
+Official page for thetopor
 
-Built with Jekyll and the [Lanyon](https://github.com/poole/lanyon) theme.
-TODO: update.
-PS. this is a git push test
+Built with Jekyll and the [Solid](https://github.com/st4ple/solid-jekyll) theme.

@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: TOPOR.
-description: "Topor is awesome."
+title: Topor
+tagline: "We axe the questions"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://www.topor.io"
+url: "http://topor.io"
 
 # Build settings
 markdown: kramdown
@@ -46,7 +46,7 @@ address:
   - lines:
     - Braila,
     - Romania.
-email: hello@topor.io
+email: contact@topor.io
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
