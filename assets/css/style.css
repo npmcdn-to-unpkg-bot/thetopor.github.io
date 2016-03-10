@@ -1,5 +1,4 @@
 ---
-
 ---
 /*	################################################################
 
@@ -11,44 +10,13 @@
 	URL: http://alvarez.is
 
 ################################################################# */
-@import url(https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-* {
-	margin: 0;
-	padding: 0px;
-}
-
-body {
-	background: #ffffff;
-	margin: 0;
-	height: 100%;
-	color: {{ site.colors.secondary }};
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-}
-
-p {
-	padding: 0;
-	margin-bottom: 12px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	color: {{ site.colors.secondary }};
-	margin-top: 10px;
-}
-
 #footerwrap .container p {
 	font-size: 14px;
 }
@@ -69,20 +37,11 @@ ol {
 }
 
 a {
-    color:{{ site.colors.link }};
-    padding: 0;
-	margin: 0;
-	text-decoration: none;
-	-webkit-transition: background-color .4s linear, color .4s linear;
-	-moz-transition: background-color .4s linear, color .4s linear;
-	-o-transition: background-color .4s linear, color .4s linear;
-	-ms-transition: background-color .4s linear, color .4s linear;
-	transition: background-color .4s linear, color .4s linear;
-}
-a:hover,
-a:focus {
-  text-decoration: none;
-  color:{{ site.colors.link_hover }};
+	-webkit-transition: background-color .35s linear, color .35s linear;
+	-moz-transition: background-color .35s linear, color .35s linear;
+	-o-transition: background-color .35s linear, color .35s linear;
+	-ms-transition: background-color .35s linear, color .35s linear;
+	transition: background-color .35s linear, color .35s linear;
 }
 
 ::-moz-selection  {
@@ -103,57 +62,6 @@ a:focus {
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
-.navbar {
-	min-height: 70px;
-	padding-top: 10px;
-	margin-bottom: 0px;
-}
-
-.navbar-brand {
-	font-weight: 700;
-}
-
-.navbar-header .navbar-brand {
-	color: #fff;
-}
-.navbar-header .navbar-brand:hover {
-	color: #afafaf;
- }
-
-.navbar-default .navbar-nav > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-	color: {{ site.colors.primary }};
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
-	background-color: transparent;
-}
-
-.navbar-default {
-	background-color: {{ site.colors.secondary }};
-	border-color: transparent;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: white;
-}
-
-.dropdown-menu {
-	background: {{ site.colors.secondary }};
-}
-
-.dropdown-menu > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
-}
-
 .btn-theme {
   color: #fff;
   background-color: {{ site.colors.secondary }};
@@ -218,6 +126,7 @@ a:focus {
 
 .hline {
 	border-bottom: 2px solid {{ site.colors.secondary }};
+	margin-bottom: 25px;
 }
 
 .hline-w {
