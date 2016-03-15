@@ -3,8 +3,8 @@
 # Site settings
 title: Topor
 tagline: "We axe the questions"
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "" #important: start with /
+analytics: # Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" # important: start with /
 url: "http://topor.io"
 
 # Build settings
@@ -18,17 +18,17 @@ sass:
   style: compressed
 
 permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+excerpt_separator: <!--more--> # use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 exclude: [README.md, LICENSE, CNAME]
 
-colors:  #in hex code if not noted else
+colors:  # in hex code if not noted else
   primary: "#607D8B"
-  primary_rgb: "96,125,139" #rgb of the primary. Needed in some places for the transparency effect.
+  primary_rgb: "96,125,139" # rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#263238"
   highlight: "#2e3b42"
-  link: "#6c8693"
-  link_hover: "#576b75"
+  link: "#336899"
+  link_hover: "#538ec6"
   footer_heading: "#f5f5f5"
   footer_content: "#bfc9d3"
 
@@ -62,7 +62,7 @@ members:
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team01.jpg
     social:
-      - title: envelope #use for email address
+      - title: envelope # use for email address
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
@@ -71,7 +71,7 @@ members:
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team02.jpg
     social:
-      - title: envelope #use for email address
+      - title: envelope # use for email address
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
@@ -80,7 +80,7 @@ members:
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team03.jpg
     social:
-      - title: envelope #use for email address
+      - title: envelope # use for email address
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle
@@ -89,7 +89,7 @@ members:
     text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     img: team04.jpg
     social:
-      - title: envelope #use for email address
+      - title: envelope # use for email address
         url: mailto:name@domain.com
       - title: twitter
         url: http://twitter.com/handle

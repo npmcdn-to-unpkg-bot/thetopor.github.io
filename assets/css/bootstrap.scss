@@ -11,7 +11,9 @@ $link-hover-color:      {{ site.colors.link_hover }};
 $link-hover-decoration: none;
 
 $font-size-base:          15px;
-$font-family-monospace:   'Roboto Mono', Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-monospace:   "Roboto Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+
+$icon-font-path: "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/fonts/";
 
 $headings-font-weight:    700;
 $headings-color:          {{ site.colors.secondary }};

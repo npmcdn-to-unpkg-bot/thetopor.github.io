@@ -10,9 +10,6 @@
 	URL: http://alvarez.is
 
 ################################################################# */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-@import url("prettyPhoto.css") screen;
-@import url("hoverex-all.css") screen;
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -59,23 +56,8 @@ a {
 	text-align: center
 }
 
-/*	################################################################
-	BOOTSTRAP MODIFICATIONS & TWEAKS
-################################################################# */
-.btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.secondary }};
-  border-color: {{ site.colors.secondary }};
-  margin: 4px;
-}
-.btn-theme:hover,
-.btn-theme:focus,
-.btn-theme:active,
-.btn-theme.active,
-.open .dropdown-toggle.btn-theme {
-  color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+.btn-tag{
+	margin: 0px 5px 5px 0px;
 }
 
 .dmbutton:hover,
@@ -138,13 +120,13 @@ a {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
-	background-image: url("/assets/images/header.jpg");
 	min-height: 0px;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: center;
 	text-shadow: 0px 0px 5px #000;
+	background-image: url("/assets/images/header.jpg");
+	background-color: {{ site.colors.primary }};
 }
 
 #headerwrap h3 {
@@ -161,19 +143,27 @@ a {
 	margin: 0 auto;
 }
 
-/* Services Wrap */
-#service {
-	margin-top: 0px;
-	margin-bottom: 0px;
+/* Tiles */
+.tile {
+	position: relative;
 }
 
-#service i {
-	color: {{ site.colors.primary }};
-	font-size: 60px;
-	padding: 15px;
+.tile > img {
+	z-index: 50;
 }
 
-/* Portfolio Wrap */
+.tile > .tile-content {
+	position: absolute;
+	opacity: 0;
+	height:100%;
+	width:100%;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+	background-color: rgba({{ site.colors.primary_rgb }},.9);
+}
+
+/* Portfolio */
 #portfoliowrap {
 	padding-top: 60px;
 	margin-bottom: 60px;
@@ -185,46 +175,46 @@ a {
 	margin-bottom: 25px;
 }
 
-.portfolio {
+#portfolio {
 	padding:0 !important;
 	margin:0 !important;
 	display:block;
 }
 
-
-.portfolio-item .title:before {border-radius:0; display:none}
-.portfolio-item p {margin:0px 0 30px;}
-.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
-
-
-.tpl6 h3
-{
-	color:#fff;
-	margin:0;
-	padding:40px 5px 0;
-	font-size:16px;
-	text-transform:uppercase;
-}
-.tpl6 .dmbutton
-{
-	display:inline-block;
-	margin:30px 5px 20px 5px;
-	font-size:13px;
+.portfolio-item h3 {
+	color: #fff;
+	margin: 0;
+	padding: 40px 5px 0;
+	font-size: 16px;
+	text-align: center;
 }
 
-.tpl6 .bg
+.portfolio-item .dmbutton
 {
-	height:100%;
-	width:100%;
-	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
-	text-align:center;
+	display: inline-block;
+	margin: 30px 5px 20px 5px;
+	font-size: 13px;
+}
+
+/* Members */
+.member h3 {
+	color: #fff;
+	margin: 0;
+	padding: 40px 5px 0;
+	font-size: 16px;
+	text-align: center;
+}
+
+.member .dmbutton
+{
+	display: inline-block;
+	margin: 30px 5px 20px 5px;
+	font-size: 13px;
 }
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: {{ site.colors.primary }};
-    background-color:rgba({{ site.colors.primary_rgb }},.8);
+    background-color: rgba({{ site.colors.primary_rgb }},.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -348,9 +338,9 @@ a {
 }
 
 .ctitle {
-	color: {{ site.colors.primary }};
 	font-weight: 700;
 	margin-bottom: 15px;
+	color: {{ site.colors.primary }};
 }
 
 csmall {

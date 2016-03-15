@@ -10,6 +10,7 @@ thumb: thumb02.jpg
 ---
 To start exploiting the linux kernel, Alex propose a simple task: create a mouse. Yup, that *simple*.
 It might seem daunting at first to create such a device from scratch, but once you figure out a solution, it's just a matter of programming.
+<!--more-->
 
 ## Hardware
 Because crafting an optical sensor is way beyond our capabilities, we were forced to use a more primitive way of moving the cursor on two axes: **potentiometers**, two of them. One will be for the X axis and the other for the Y axis. As for the mouse clicks, we used two **push-buttons**. We acquired all of this from an [Arduino Starter Kit](https://www.arduino.cc/en/Main/ArduinoStarterKit).
