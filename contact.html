@@ -11,41 +11,39 @@ permalink: /contact/
         <div class="col-lg-8">
             <h4>Just Get In Touch!</h4>
             <div class="hline"></div>
-                <p>{{ site.about }}</p>
-                <form role="form">
-                  <div class="form-group">
-                    <label for="InputName1">Your Name</label>
-                    <input type="text" class="form-control" id="exampleInputName1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
-                  </div>
-                  <div class="form-group">
-                    <label for="InputSubject1">Subject</label>
-                    <input type="text" class="form-control" id="exampleInputSubject1">
-                  </div>
-                  <div class="form-group">
-                    <label for="message1">Message</label>
-                    <textarea class="form-control" id="message1" rows="3"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                <form action="http://io.topor.io/form-email.php">
+            		<div class="form-group">
+                    	<label for="form-name">Your Name</label>
+                    	<input type="text" class="form-control" name="name" id="form-name">
+                	</div>
+                 	<div class="form-group">
+                    	<label for="form-email">Email address</label>
+                    	<input type="email" class="form-control" name="email" id="form-email">
+                	</div>
+                	<div class="form-group">
+                    	<label for="form-subject">Subject</label>
+                    	<input type="text" class="form-control" name="subject" id="form-subject">
+                	</div>
+                	<div class="form-group">
+                    	<label for="form-message">Message</label>
+                    	<textarea class="form-control" name="message" id="form-message" rows="3"></textarea>
+                	</div>
+                	<button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+				<div class="spacing"></div>
         </div>
-		<br />
         <div class="col-lg-4">
             <h4>Our Address</h4>
             <div class="hline"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
-                <p>
-                    Email: <a href="mailto:{{ site.email }}?Subject=Hello%20Topor" target="_blank">{{ site.email }}</a><br/>
-                    Tel: {{ site.tel }}
-                </p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <p>
+                {% for line in site.address.first.lines %}
+                    {{ line }} <br>
+                {% endfor %}
+            </p>
+            <p>
+                Email: <a href="mailto:{{ site.email }}?Subject=Hello%20Topor" target="_blank">{{ site.email }}</a><br/>
+            </p>
+            <p>If you need any assistance with our products or want to know more about something, do not hesitate to contact us.</p>
         </div>
     </div>
 </div>

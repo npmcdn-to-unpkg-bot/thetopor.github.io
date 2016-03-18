@@ -120,12 +120,13 @@ a {
 ################################################################# */
 
 #headerwrap {
-	min-height: 0px;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	text-align: center;
 	text-shadow: 0px 0px 5px #000;
 	background-image: url("/assets/images/header.jpg");
+	background-position: center;
+	background-attachment: fixed;
 	background-color: {{ site.colors.primary }};
 }
 
@@ -140,7 +141,8 @@ a {
 }
 
 #headerwrap .img-responsive {
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* Tiles */
@@ -167,8 +169,7 @@ a {
 #portfoliowrap {
 	padding-top: 60px;
 	margin-bottom: 60px;
-	display: block;
-	text-align: center
+	text-align: center;
 }
 
 #portfoliowrap h3 {
@@ -176,9 +177,9 @@ a {
 }
 
 #portfolio {
-	padding:0 !important;
-	margin:0 !important;
-	display:block;
+	padding: 0;
+	margin: 0;
+	display: block;
 }
 
 .portfolio-item h3 {
@@ -201,20 +202,28 @@ a {
 	color: #fff;
 	margin: 0;
 	padding: 40px 5px 0;
-	font-size: 16px;
+	font-size: 20px;
 	text-align: center;
+}
+
+.member h4 > a {
+	color: {{ site.colors.secondary }};
+}
+
+.member h4 > a:hover {
+	color: {{ site.colors.link_hover }};
 }
 
 .member .dmbutton
 {
 	display: inline-block;
-	margin: 30px 5px 20px 5px;
+	margin: 50px 5px 20px 5px;
 	font-size: 13px;
 }
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: rgba({{ site.colors.primary_rgb }},.8);
+    background-color: rgba({{ site.colors.primary_rgb }},.75);
     position: absolute;
     top: 0;
     left: 0;
@@ -226,8 +235,8 @@ a {
     background: url(../images/t-back.jpg) no-repeat center top;
     position: relative;
     margin-top: 0px;
-	padding-top:60px;
-	text-align:center;
+	padding-top: 60px;
+	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 450px;
@@ -252,7 +261,7 @@ a {
 
 #twrap p {
 	color: white;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 30px;
 }
 

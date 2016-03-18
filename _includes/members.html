@@ -3,9 +3,9 @@
         <h3 class="mb">MEET OUR TEAM</h3>
 
         {% for member in site.members %}
-        <div class="col-md-3">
-            <div class="tile member">
-	            <img src="{{ "/assets/images/members/" | prepend: site.baseurl }}{{ member.img }}" alt="">
+        <div class="col-md-4 member">
+            <div class="tile">
+	            <img src="{{ "/assets/images/members/" | prepend: site.baseurl }}{{ member.img }}" class="img-responsive">
 	            <div class="tile-content" data-animate="animated fadeIn">
 	                <h3 data-animate="animated fadeInDown">Contact Me:</h3>
 	                {% for entry in member.social %}
@@ -13,7 +13,7 @@
 	                {% endfor %}
 	            </div>
             </div>
-            <h4>{{ member.name }}</h4>
+            <h4><a href="{{ member.page | prepend: site.baseurl }}">{{ member.name }}</a></h4>
             <h5 class="ctitle">{{ member.position }}</h5>
             <p>{{ member.text }}</p>
             <div class="hline"></div>
