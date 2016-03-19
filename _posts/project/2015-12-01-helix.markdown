@@ -1,0 +1,20 @@
+---
+layout: project
+title:  "Helix"
+date:   2015-12-01 16:54:46
+author: Alexandru N. Onea
+categories:
+- project
+img: helix/helix.jpg
+thumb: helix/helix.jpg
+carousel:
+- ../helix/helix.jpg
+tagged: Embedded, Development, Linux, C/C++, Hardware
+client: 
+website: 
+---
+#### Helix
+Helix is a semi-autonomous quad-copter able to both navigate in the environment without the need of any user command and perform various high-level tasks. In addition, Helix will be equiped with a professional camera in order to enable high-quality on-board filming and video streamming. We even think including some VR stuff :)
+
+#### How it all started
+It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
